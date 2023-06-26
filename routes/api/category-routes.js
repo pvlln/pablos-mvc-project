@@ -33,7 +33,7 @@ router.get('/:id', async (req, res) => {
 router.post('/', async (req, res) => {
   try {
     const newCategory = await Category.create(req.body);
-    res.status(200).json({message: `The following new category was created successfully: ${newCategory}`});
+    res.status(200).json({message: `The category was created successfully!`});
   } catch (error) {
     res.status(400).json(error);
   }
@@ -48,7 +48,7 @@ router.put('/:id', async (req, res) => {
       res.status(404).json({message: "There is no category with this ID"});
       return;
     }
-    res.status(200).json(update);
+    res.status(200).json({message: "The category was successfully updated."});
   } catch (error) {
     res.status(400).json(error);
   }
