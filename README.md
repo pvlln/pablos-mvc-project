@@ -19,7 +19,7 @@ To install this app, you will need to install npm and mysql and be able to acces
 Here is a screen recording of my application in action:
 ![App demo screen recording](https://drive.google.com/file/d/1OUivPg44o7IBUpz276w4IeILcmcn2E7L/view?usp=drive_link)
 
-
+In case that link doesn't work (had a big problem uploading the recording) : https://drive.google.com/file/d/1OUivPg44o7IBUpz276w4IeILcmcn2E7L/view?usp=drive_link
 
 ## Usage
 To use this app, simply access the command line, follow the installation instructions, and run "npm start" in your command line. 
